@@ -9,14 +9,14 @@
     <h1> HEADER</h1>
     <ul>
         <li>
-            <a href="{%url 'home'%}"> Home</a>
+            <a href="{% url 'home' %}"> Home</a>
         </li>
         <li>
-            <a href="{%url 'shop_page_link'%}"> Shop_page</a>
+            <a href="{% url 'shop_page' %}"> Shop_page</a>
         </li>
     </ul>
-     {%block content %}
-     {%endblock%}
+     {% block content %}
+     {% endblock%}
     <h1> FOOTER</h1>
 </body>
 </html>
